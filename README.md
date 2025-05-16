@@ -31,13 +31,7 @@ docker-compose up --build
 ```bash
 dotnet run --project PruebaBackend
 ```
-### 5. Estructura del proyecto
-
-PruebaBackend/
-├── Controllers/ # Controladores de la API
-├── Models/ # Modelos de datos
-├── Data/ # Acceso a datos (DbContext, migraciones, repositorios)
-├── Program.cs # Punto de entrada de la aplicación
-├── appsettings.json # Configuración general del proyecto
-
-
+### 5. Endpoint en local
+```bash
+http://localhost:5135/api/MarcasAutos
+```
