@@ -14,7 +14,7 @@ Este es un proyecto backend desarrollado con **.NET 8**, pensado como parte de u
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/PruebaBackend.git
+git clone https://github.com/diegool2121/PruebaBackendC.git
 ```
 ### 2. Compilación del proyecto
 ```bash
