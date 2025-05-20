@@ -135,3 +135,4 @@ C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\obj\Debug\net8.0\Prueb
 C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\obj\Debug\net8.0\ref\PruebaBackend.dll
 C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\bin\Debug\net8.0\Moq.dll
+C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\obj\Debug\net8.0\PruebaBackend.sourcelink.json

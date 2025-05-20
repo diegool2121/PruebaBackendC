@@ -15,29 +15,18 @@ Este es un proyecto backend desarrollado con **.NET 8**, pensado como parte de u
 
 ```bash
 git clone https://github.com/tu-usuario/PruebaBackend.git
-cd PruebaBackend
 ```
 ### 2. Compilación del proyecto
 ```bash
 dotnet build
 ```
 ### 3. Ejecutar con Docker
-Asegúrate de tener Docker Desktop corriendo y ejecutar:
+Asegurarse de tener Docker Desktop corriendo y ejecutar:
 
 ```bash
 docker-compose up --build
 ```
-### 4. Ejecutar sin Docker
+### 4. Endpoint
 ```bash
-dotnet run --project PruebaBackend
+http://localhost:5000/api/MarcasAutos
 ```
-### 5. Estructura del proyecto
-
-PruebaBackend/
-├── Controllers/ # Controladores de la API
-├── Models/ # Modelos de datos
-├── Data/ # Acceso a datos (DbContext, migraciones, repositorios)
-├── Program.cs # Punto de entrada de la aplicación
-├── appsettings.json # Configuración general del proyecto
-
-
