@@ -136,3 +136,4 @@ C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\obj\Debug\net8.0\ref\P
 C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\bin\Debug\net8.0\Moq.dll
 C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\obj\Debug\net8.0\PruebaBackend.sourcelink.json
+C:\Users\DiegoOs\source\repos\PruebaBackend\PruebaBackend\bin\Debug\net8.0\SeedData\marcas.json

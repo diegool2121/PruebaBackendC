@@ -1,32 +1,27 @@
-using Microsoft.EntityFrameworkCore;
-using PruebaBackend.Data;
-
 var builder = WebApplication.CreateBuilder(args);
 
-// Configura el DbContext
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Configuración de servicios
+ServiceConfiguration.ConfigureServices(builder);
 
 var app = builder.Build();
 
-// Middleware
-if (app.Environment.IsDevelopment())
+// Configuración de la aplicación
+AppConfiguration.ConfigureApplication(app);
+
+// Inicialización de la base de datos
+try
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    await DatabaseInitializer.InitializeDatabaseAsync(app);
 }
+catch (Exception ex)
+{
+    var logger = app.Services.GetRequiredService<ILogger<Program>>();
+    logger.LogError(ex, "Error durante la inicialización de la aplicación");
 
-// 🔴 Comentado porque puede causar error en Docker si no hay HTTPS
-// app.UseHttpsRedirection();
-
-app.UseAuthorization();
-app.MapControllers();
-
-// 🔥 Docker acepte peticiones externas al contenedor
-app.Urls.Add("http://0.0.0.0:80");
+    if (app.Environment.IsDevelopment())
+    {
+        throw;
+    }
+}
 
 app.Run();

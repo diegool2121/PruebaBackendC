@@ -14,7 +14,6 @@ namespace PruebaBackend.Controllers
         {
             _context = context;
         }
-
         [HttpGet]
         public ActionResult<IEnumerable<MarcaAuto>> Get()
         {
