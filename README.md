@@ -2,6 +2,12 @@
 
 Este es un proyecto backend desarrollado con **.NET 8**, pensado como parte de una prueba técnica o base para futuros desarrollos. Utiliza contenedores Docker para su ejecución y facilita el desarrollo gracias a Visual Studio.
 
+---
+## Screenshots App US / ES
+![ES](Screenshots/Contenedor_postgres_backend.png)
+![US](Screenshots/Postman_Endpoint_Get.png)
+---
+
 ## 📦 Tecnologías utilizadas
 
 - [.NET 8](https://dotnet.microsoft.com/)
