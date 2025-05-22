@@ -4,8 +4,8 @@ Este es un proyecto backend desarrollado con **.NET 8**, pensado como parte de u
 
 ---
 ## Screenshots Docker/Postman 
-![ES](Screenshots/Contenedor_postgres_backend.png)
-![US](Screenshots/Postman_Endpoint_Get.png)
+![Docker](Screenshots/Contenedor_postgres_backend.png)
+![Postman](Screenshots/Postman_Endpoint_Get.png)
 ---
 
 ## 📦 Tecnologías utilizadas
